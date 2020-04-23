@@ -1,1 +1,1 @@
-Automates the opening of typerracer.com, selects race, and begins typing after the timer has finished. Must get Selenium packages. 
+Automates the opening of typerracer.com, selects race, and begins typing after the timer has finished. Must get Selenium packages and Geckodriver as a Firefox WebDriver. The exe_path for the WebDriver should be personally selected from computer files. The one in the code is selected specifically to where I downloaded it to.
