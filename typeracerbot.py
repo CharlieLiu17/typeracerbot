@@ -5,7 +5,7 @@ from time import sleep
 
 class TypeRacerBot:
     def __init__(self):
-        self.driver = webdriver.Firefox(executable_path="C:\\Users\\Charlie\\Documents\\Coding\\Python Code\\geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="F:\\Documents\\Coding\\geckodriver.exe")
         self.driver.get("https://www.typeracer.com")
         sleep(2)
         self.actions = ActionChains(self.driver)
